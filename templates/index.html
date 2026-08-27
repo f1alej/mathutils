@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>mathutils</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>mathutils</h1>
+    <p class="subtitle">a tiny calculator app</p>
+
+    <div class="row">
+      <input type="number" id="a" placeholder="First number" value="0">
+      <select id="operation">
+        <option value="add">+</option>
+        <option value="subtract">&minus;</option>
+        <option value="multiply">&times;</option>
+      </select>
+      <input type="number" id="b" placeholder="Second number" value="0">
+    </div>
+
+    <button id="calculate">Calculate</button>
+
+    <div class="result" id="result">&mdash;</div>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
